@@ -1,0 +1,34 @@
+$font-family-base: "Poppins", sans-serif;
+$custom-border-radius: .60rem;
+
+// rounded
+$border-radius:.60rem;         
+
+// Card
+$card-border-width: 0;
+$card-border-radius: $custom-border-radius;
+
+// Dropdown
+$dropdown-min-width: 9rem;
+$dropdown-item-padding-y: 0.65rem;
+$dropdown-item-padding-x: 0;
+$dropdown-color: $dark;
+$dropdown-link-hover-color:         $primary;
+$dropdown-link-hover-bg:            transparent;
+$dropdown-link-active-bg:          transparent;
+$dropdown-link-active-color:          $primary;
+$dropdown-border-radius: 0.55rem;
+$dropdown-font-size: 14px;
+$dropdown-padding-x: 1rem;
+$dropdown-padding-y: 0;
+
+// Table
+$table-striped-order:even;
+$background-color: $table-accent-bg;
+$thead-border-radius:         0.45rem;
+
+// Progress
+$progress-height:   0.3rem;
+$progress-border-radius:      0.8rem;
+$progress-bar-border-radius:      0.8rem;
+

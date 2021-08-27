@@ -1,0 +1,26 @@
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table {
+  tbody {
+    tr {
+      td {
+        &:first-child {
+          border-top-left-radius: $thead-border-radius;
+          border-bottom-left-radius: $thead-border-radius;
+        }
+        &:last-child {
+          border-top-right-radius: $thead-border-radius;
+          border-bottom-right-radius: $thead-border-radius;
+        }
+      }
+    }
+  }
+}
+
+th ,td{
+  width:127px;
+    min-width: 127px;
+  }

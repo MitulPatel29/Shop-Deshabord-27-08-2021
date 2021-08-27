@@ -1,0 +1,9 @@
+.progress {
+    .progress-bar {
+        border-radius: $progress-bar-border-radius;
+    }
+}
+
+@each $colors, $value in $theme-colors {
+    @include progress-colors($colors, $value);
+}

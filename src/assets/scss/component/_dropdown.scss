@@ -1,0 +1,15 @@
+.dropdown {
+    .dropdown-menu {
+        .dropdown-item {
+            &:not(:last-child) {
+                border-bottom: 1px solid $secondary;
+            }
+        }
+    }
+}
+
+.dropdown-toggle {
+    &::after {
+        content: none;
+    }
+}
